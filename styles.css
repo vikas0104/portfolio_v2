@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: rgb(195, 252, 247);
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(./images/back.png);
+    background-attachment: fixed;
+    min-height: 100vh;
+    /* background-size: cover; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    /* position: fixed; */
+    margin-left: 15%;
+    margin-right: 15%;
+    /* justify-content: center; */
+    /* background: rgb(1, 24, 34); */
+    background: #0a080d;
+    box-shadow: 0 0 4px rgb(69,199,254);
+    border-radius: 5px;
+    z-index: 3;
+}
+ul{
+    /* float: right; */
+    text-align: center;
+    /* list-style: none; */
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+ul li{
+    /* display: inline-block; */
+    color: white;
+    margin-right: 15px;
+    /* margin-top: 10px; */
+    margin-left: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    font-size: 20px;
+    border: 2px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.085),rgba(0,0,0,0.085));
+    color: white;
+}
+
+.fa{
+    margin: 7px;
+}
+.second_page{
+    background: rgb(10,25,47);
+    height: max-content;
+    /* background-size: contain;
+    background-position: center; */
+}
+.outer{
+    padding-top: 30vh;
+    /* position: relative; */
+    /* margin-top: 10%; */
+    /* border: 1px solid white; */
+}
+
+.brief{
+    position: relative;
+    width: 750px;
+    top: 15%;
+    left: 15%;
+}
+#abt_me{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    font-family: monospace;
+}
+.intro{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Roboto';
+}
+.summary{
+    color: white;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    /* letter-spacing: 1px; */
+    /* margin-top: 0; */
+    text-justify: newspaper;
+}
+.my_self{
+    position: relative;
+    width: max-content;
+    left: 70%;
+    top: -30%;
+}
+#me_vikas{
+    border: transparent;
+    border-radius: 50%;
+}
+.third_page{
+    background: rgb(10,25,47);
+    height: max-content;
+    background-size: contain;
+    background-position: center;
+    /* border: 1px solid white; */
+}
+.certi_box{
+    position: relative;
+    width: 73vw;
+    /* top: 20%; */
+    padding-top: 100px;
+    left: 15%;
+    /* border: 1px solid #aa79b9; */
+}
+.certi{
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* border: 1px solid green; */
+}
+.coursera{
+    display: inline-table;
+    /* margin-bottom: 30px; */
+    /* margin-left: 20px; */
+    margin: 20px 30px;
+    /* border: 1px solid white; */
+    box-shadow: 3px 3px 2px rgb(180, 232, 255);
+    width: 350px;
+    height: 120px;
+    transition-property: box-shadow;
+    transition: 0.3s ease;
+}
+.coursera a:hover{
+    color: white;
+    text-decoration: none;
+}
+.course_names{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    color: white;
+    /* justify-content: left; */
+    font-family: monospace;
+    font-size: 20px;
+}
+.coursera:hover{
+    box-shadow: 6px 6px 6px rgb(69,199,254);
+    background: linear-gradient(rgba(255, 255, 255, 0.171),rgba(255, 255, 255, 0.068));
+}
+/* Fourth page CSS starts from here */
+.fourth_page{
+    height: 100vh;
+    background: rgb(10,25,47);
+    /* border: 1px solid gold; */
+}
+.contact_me{
+    position: relative;
+    /* border: 1px solid white; */
+    font-size: xx-large;
+    top: 45%;
+    text-align: center;
+    color: white;
+}
+.cont{
+    color: violet;
+    /* border: 1px solid wheat; */
+    font-size: 50px;
+    margin: 5px 2vw;
+    text-shadow: 2px 2px 6px rgba(0,0,0);
+}
+.final{
+    position: relative;
+    /* border: 1px solid white; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    top: 72%;
+    color: white;
+    font-size: 20px;
+}
+#resume{
+    transition-duration: 1s;
+}
+#resume:hover{
+    background: linear-gradient(rgba(255, 255, 255, 0.055),rgba(255, 255, 255, 0.055));
+    color: white;
+}
+.projects{
+    min-height: 100vh;
+    /* border: 1px solid white; */
+}
+.carousel-item  img {
+    width:500px;
+    height:480px;
+}
+.leftists{
+    text-align: left;
+}
